@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="id" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio & About Us - M. Hasan Rizqi .k</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top custom-nav">
+        <div class="container py-2 px-4 rounded-pill bg-nav-glass">
+            <div class="d-flex w-100 justify-content-between align-items-center">
+                <div class="brand-circle">K</div>
+
+                <div class="nav-links d-none d-md-flex">
+                    <a href="#home" class="nav-link mx-3">Home</a>
+                    <a href="#about" class="nav-link mx-3">About</a>
+                    <a href="#skill" class="nav-link mx-3">Skills</a>
+                    <a href="#Project" class="nav-link mx-3">Projek</a>
+                    <a href="#Contact" class="nav-link mx-3">Contact</a>
+                </div>
+
+                <button class="btn btn-outline-theme rounded-circle" id="themeToggle">
+                    <i class="bi bi-sun-fill" id="themeIcon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-hero mb-5 mb-lg-0">
+                    <h5 class="fw-normal opacity-75">Welcome to </h5>
+                    <h1 class="display-3 fw-bold mb-4">Projek Portofolio</h1>
+                    <a href="#about" class="btn btn-hero px-5 py-2 rounded-pill fw-bold shadow">About Me</a>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="profile-frame mx-auto shadow-lg">
+                        <img src="asset/oko.jpeg" alt="Profile" class="img-fluid profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+
+    <section id="about" class="about-section bg-body-tertiary ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0 text-center">
+                    <img src="asset/WhatsApp Image 2026-05-07 at 11.32.01.jpeg" alt="Eco Illustration" class="img-fluid floating-img">
+                </div>
+                
+                <div class="col-lg-6 root">
+                    <h6 class="text-success fw-bold ls-2">ABOUT US</h6>
+                    <p class="text-muted mb-4">
+                        Hi! I'm Muhammad Hasan Rizqi Kamal, a design enthusiast and gamer based in Tengaran. I believe every piece of work has a unique story to tell. Besides spending my time in front of the screen editing or gaming, I'm a big fan of fruits. I also enjoy fishing and staying active through sports.
+                    </p>
+
+                    <ul class="nav nav-tabs mb-3" id="aboutTab" role="tablist">
+                        <li class="nav-item">
+                           <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab-about">Name</button>
+                       </li>
+                        <li class="nav-item">
+                           <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-mission">Hobby</button>
+                       </li>
+                    </ul>
+                    
+                    <div class="tab-content pt-2">
+                        <div class="tab-pane fade show active" id="tab-about">
+                            <p class="text-muted small">Muhammad Hasan Rizqi Kamal</p>
+                            <p class="text-muted small">Jl. Poncol, Tengaran, Semarang, Central Java, ID.</p>
+                            <p class="text-muted small">Poncol, RT 25 / RW 05, Klero Village, Tengaran Subdistrict, Semarang Regency, Central Java, Indonesia.</p>
+                        </div>
+                        <div class="tab-pane fade" id="tab-mission">
+                            <p class="text-muted small">My hobbies include sports, gaming, fishing, and video editing. Beyond that, I have a love for fruits and a firm belief that every creation carries a unique story behind it.</p>
+                        </div>
+                    </div>
+
+                    <a href="d:\downloads\Orientation B. Inggris.pdf" class="btn btn-link text-decoration-none p-0 mt-3 fw-bold theme-text-link">Experience</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- My Skills -->
+   <div class="container py-4">
+     <div class="dashboard-box">
+        
+        <h1 id="skill" class="text-center main-title">My Skill</h1>
+
+        <div class="row align-items-center mb-3">
+            <div class="col-3 skill-label">HTML</div>
+            <div class="col-7">
+                <div class="custom-progress-bg">
+                    <div id="bar-html" class="custom-bar bar-html" style="width: 30%;"></div>
+                </div>
+            </div>
+            <div class="col-2 percentage-text"><span id="txt-html">30</span>%</div>
+        </div>
+
+        <div class="row align-items-center mb-3">
+            <div class="col-3 skill-label">CSS</div>
+            <div class="col-7">
+                <div class="custom-progress-bg">
+                    <div id="bar-css" class="custom-bar bar-css" style="width: 15%;"></div>
+                </div>
+            </div>
+            <div class="col-2 percentage-text"><span id="txt-css">15</span>%</div>
+        </div>
+
+        <div class="row align-items-center mb-3">
+            <div class="col-3 skill-label">Javascript</div>
+            <div class="col-7">
+                <div class="custom-progress-bg">
+                    <div id="bar-js" class="custom-bar bar-js" style="width: 5%;"></div>
+                </div>
+            </div>
+            <div class="col-2 percentage-text"><span id="txt-js">5</span>%</div>
+        </div>
+
+        <div class="row align-items-center mb-3">
+            <div class="col-3 skill-label">Boostrap</div>
+            <div class="col-7">
+                <div class="custom-progress-bg">
+                    <div id="bar-bootstrap" class="custom-bar bar-bootstrap" style="width: 25%;"></div>
+                </div>
+            </div>
+            <div class="col-2 percentage-text"><span id="txt-bootstrap">25</span>%</div>
+        </div>
+
+        <div class="row align-items-center mb-3">
+            <div class="col-3 skill-label">Tailwind</div>
+            <div class="col-7">
+                <div class="custom-progress-bg">
+                    <div id="bar-tailwind" class="custom-bar bar-tailwind" style="width: 1%;"></div>
+                </div>
+            </div>
+            <div class="col-2 percentage-text"><span id="txt-tailwind">1</span>%</div>
+        </div>
+
+
+        <div class="row logo-row text-center align-items-start">
+            <div class="col logo-box pos-down-1">
+                <svg width="70" height="70" viewBox="0 0 512 512"><path fill="#E34F26" d="M71 462l-37-417h444l-37 417-185 51z"/><path fill="#EF652A" d="M256 472l149-41 33-368H256z"/><path fill="#EBEBEB" d="M256 208v-49h116l-3 35-1 14H256zm0 119l-1 0-53-14-3-38h-49l7 81 98 27 1-1z"/><path fill="#FFF" d="M256 208h73l-3 35-1 14H256v-49zm0 71h70l-7 74-63 17v-42l-1 0z"/></svg>
+            </div>
+            <div class="col logo-box pos-down-2">
+                <svg width="60" height="60" viewBox="0 0 512 512"><path fill="#264de4" d="M71 462l-37-417h444l-37 417-185 51z"/><path fill="#2965f1" d="M256 472l149-41 33-368H256z"/><path fill="#FFF" d="M256 159h119l-10 112H256v48h61l-6 61-55 15v-43l-1 0z"/><path fill="#EBEBEB" d="M256 159v48h71l-4 44H256v49h61l-6 61-55 15-55-15-4-40h-49l7 81 101 28 1-1z"/></svg>
+            </div>
+            <div class="col logo-box pos-up-1">
+                <svg width="75" height="75" viewBox="0 0 512 512"><path fill="#F7DF1E" d="M0 0h512v512H0z"/><path d="M294 391c0 30-18 51-46 51-26 0-41-14-48-28l33-19c4 8 10 14 16 14 7 0 11-4 11-12V244h34v147zm121-7c0 34-23 58-58 58-31 0-50-17-57-36l32-18c4 10 11 17 23 17 10 0 16-5 16-15 0-11-7-15-24-22l-11-5c-24-10-38-22-38-48 0-26 21-46 51-46 25 0 42 12 48 27l-30 19c-4-7-9-11-17-11-8 0-12 5-12 11 0 9 5 13 20 19l11 5c28 12 41 23 41 51z"/></svg>
+            </div>
+            <div class="col logo-box pos-down-3">
+                <svg width="75" height="75" viewBox="0 0 512 512"><path fill="#7952b3" d="M416 32H96C60.7 32 32 60.7 32 96v320c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64z"/><path fill="#FFF" d="M197 141h72c21 0 36 5 46 14s14 23 14 41c0 14-4 25-13 32s-21 11-37 11h-82v-98zm0 134h83c21 0 37 5 46 15s14 24 14 43c0 19-5 33-15 42s-25 13-46 13h-82V275zm-43-172v304h128c40 0 71-9 93-27s33-46 33-82c0-23-6-42-18-56s-29-23-51-27c17-5 31-15 40-29s14-32 14-53c0-34-11-59-33-76s-54-24-97-24H154z"/></svg>
+            </div>
+            <div class="col logo-box pos-up-2">
+                <svg width="80" height="80" viewBox="0 0 128 128"><path fill="#38BDF8" d="M64 36c-12 0-20 6-24 18 6-3 12-4 18-2 7.7 2.6 13.2 8.2 19.3 14.4C87.2 76.8 96.2 86 112 86c12 0 20-6 24-18-6 3-12 4-18 2-7.7-2.6-13.2-8.2-19.3-14.4C92.8 45.2 83.8 36 64 36zm-48 44c-12 0-20 6-24 18 6-3 12-4 18-2 7.7 2.6 13.2 8.2 19.3 14.4 9.9 10.2 18.9 19.4 34.7 19.4 12 0 20-6 24-18-6 3-12 4-18 2-7.7-2.6-13.2-8.2-19.3-14.4C56.8 89.2 47.8 80 32 80z"/></svg>
+            </div>
+        </div>
+
+
+        <div class="control-panel shadow">
+            <h4 class="text-center mb-4">⚙️ Dynamic Percentage Changer Input Panel</h4>
+            <div class="table-responsive">
+                <table class="table table-borderless text-white align-middle m-0">
+                    <thead>
+                        <tr class="text-center border-bottom border-secondary">
+                            <th class="pb-3 text-start ps-4">Skill Name</th>
+                            <th class="pb-3">Change Value (0 - 100)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="ps-4 fw-bold">HTML</td>
+                            <td class="text-center">
+                                <input type="number" id="in-html" class="table-input" value="30" min="0" max="100" oninput="liveUpdate('html')"> <span class="ms-1">%</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ps-4 fw-bold">CSS</td>
+                            <td class="text-center">
+                                <input type="number" id="in-css" class="table-input" value="15" min="0" max="100" oninput="liveUpdate('css')"> <span class="ms-1">%</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ps-4 fw-bold">Javascript</td>
+                            <td class="text-center">
+                                <input type="number" id="in-js" class="table-input" value="5" min="0" max="100" oninput="liveUpdate('js')"> <span class="ms-1">%</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ps-4 fw-bold">Bootstrap</td>
+                            <td class="text-center">
+                                <input type="number" id="in-bootstrap" class="table-input" value="25" min="0" max="100" oninput="liveUpdate('bootstrap')"> <span class="ms-1">%</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ps-4 fw-bold">Tailwind</td>
+                            <td class="text-center">
+                                <input type="number" id="in-tailwind" class="table-input" value="1" min="0" max="100" oninput="liveUpdate('tailwind')"> <span class="ms-1">%</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+     </div>
+  </div>
+
+  <!-- Project -->
+ 
+
+  <div class="container">
+    
+     <h1 id="Project" class="main-title">My Projek</h1>
+
+      <div class="row g-4 justify-content-center mb-4">
+        
+          <div class="col-md-6 col-lg-4">
+               <div class="project-item">
+                 <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=400&q=80" alt="Mockup Projek" class="project-img">
+                 <div class="project-title">Project Collaboration season 1</div>
+                 <div class="project-desc">"A web-based application to facilitate coordination, task management, and online team work distribution."</div>
+                 <a href="#" class="btn-look">View Website</a>
+             </div>
+         </div>
+
+          <div class="col-md-6 col-lg-4">
+               <div class="project-item">
+                 <img src="asset/TUGAS1.png" alt="Mockup Projek" class="project-img">
+                 <div class="project-title">School Student Management System</div>
+                 <div class="project-desc">"An integrated school information system platform for processing administrative data, attendance, and student grade recaps."</div>
+                 <a href="https://muhammadhasanrizqikama-cell.github.io/Tugas2Bootstrapt/" class="btn-look">View Website</a>
+             </div>
+         </div>
+
+          <div class="col-md-6 col-lg-4">
+               <div class="project-item">
+                 <img src="asset/TUGAS2.png" alt="Mockup Projek" class="project-img">
+                 <div class="project-title">Environment</div>
+                 <div class="project-desc">Preserving the natural ecosystem</div>
+                 <a href="https://muhammadhasanrizqikama-cell.github.io/Tugas3/" class="btn-look">View Website</a>
+             </div>
+         </div>
+
+    </div>
+
+      <div class="row g-4 justify-content-center">
+        
+          <div class="col-md-6 col-lg-4">
+               <div class="project-item">
+                 <img src="asset/TUGAS3.png" alt="Mockup Projek" class="project-img">
+                 <div class="project-title">Modern Furniture - Landing page</div>
+                 <div class="project-desc">Building a Website Inspired by Social Media</div>
+                 <a href="https://muhammadhasanrizqikama-cell.github.io/Tugas4/" class="btn-look">View Website</a>
+             </div>
+         </div>
+
+         <div class="col-md-6 col-lg-4">
+               <div class="project-item">
+                 <img src="asset/TUGAS4.png" alt="Mockup Projek" class="project-img">
+                 <div class="project-title">FurnitureStore - Landing page</div>
+                 <div class="project-desc">Premium Furniture Sales: Latest & Finest Collections</div>
+                 <a href="https://muhammadhasanrizqikama-cell.github.io/Tugas5/" class="btn-look">View Website</a>
+             </div>
+         </div>
+
+      </div>
+    
+  </div>
+
+
+
+  <!-- Contact -->
+   <div class="container text-center">
+    <h2 id="Contact" class="contact-title">My Contact</h2>
+
+    <div class="row g-5 justify-content-center align-items-start text-center mb-4">
+        
+        <div class="col-md-4">
+            <span class="column-heading">Contact us</span>
+            
+            <div class="social-grid mt-3">
+                <a href="https://wa.me/085804682798" target="_blank" class="social-item">
+                    <div class="icon-box bg-wa"><i class="bi bi-whatsapp"></i></div>
+                    Whatsapp
+                </a>
+                <a href="https://instagram.com/m.hasan_rizqi_kamal" target="_blank" class="social-item">
+                    <div class="icon-box bg-ig"><i class="bi bi-instagram"></i></div>
+                    instagram
+                </a>
+                <a href="https://tiktok.com/@okyoky_okyoky" target="_blank" class="social-item">
+                    <div class="icon-box bg-tiktok"><i class="bi bi-tiktok"></i></div>
+                    TikTok
+                </a>
+                <a href="https://github.com/muhammadhasanrizqikama-cell" target="_blank" class="social-item">
+                    <div class="icon-box bg-github"><i class="bi bi-github"></i></div>
+                    Github
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4 text-center"> 
+            <div class="mt-3 d-inline-block text-start">
+                <a href="#home" class="nav-link-item">&rarr; &nbsp;Home</a>
+                <a href="#about" class="nav-link-item">&rarr; &nbsp;About Me</a>
+                <a href="#skill" class="nav-link-item">&rarr; &nbsp;Skill</a>
+                <a href="#Project" class="nav-link-item">&rarr; &nbsp;Project</a>
+                <a href="#Contact" class="nav-link-item">&rarr; &nbsp;Contact</a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <span class="column-heading">Location</span>
+            
+            <div class="map-container mt-3">
+                <iframe 
+                    src="https://maps.google.com/maps?q=Poncol Klero RT25/RW05,%20Pakis&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                    frameborder="0" 
+                    scrolling="no" 
+                    marginheight="0" 
+                    marginwidth="0"
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+    </div>
+  </div>
+
+  <div class="copyright-bar text-center">
+    <div class="container">
+        &copy; 2026 Muhammad Hasan Rizqi Kamal. My Portofolio
+    </div>
+   </div>
+
+
+
+  <script>
+  // Logika Pengendali Tema (Dark/Light)
+
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const html = document.documentElement;
+
+        themeToggle.addEventListener('click', () => {
+            if (html.getAttribute('data-bs-theme') === 'dark') {
+                html.setAttribute('data-bs-theme', 'light');
+                themeIcon.classList.replace('bi-sun-fill', 'bi-moon-stars-fill');
+            } else {
+                html.setAttribute('data-bs-theme', 'dark');
+                themeIcon.classList.replace('bi-moon-stars-fill', 'bi-sun-fill');
+            }
+        });
+
+
+
+
+  // My skill 
+
+    function liveUpdate(skillKey) {
+        // Ambil elemen input angka pada tabel
+        let currentInput = document.getElementById('in-' + skillKey);
+        let numericValue = currentInput.value;
+
+        // Validasi pembatasan angka input wajib berada di antara rentang 0-100
+        if (numericValue < 0) { numericValue = 0; currentInput.value = 0; }
+        if (numericValue > 100) { numericValue = 100; currentInput.value = 100; }
+        if (numericValue === '') { numericValue = 0; }
+
+        // Eksekusi perubahan lebar visual batang grafik
+        document.getElementById('bar-' + skillKey).style.width = numericValue + '%';
+        
+        // Eksekusi perubahan teks angka persentase di sisi kanan
+        document.getElementById('txt-' + skillKey).innerText = numericValue;
+    }
+   
+  
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
