@@ -71,6 +71,37 @@
           opacity: 1;
         }
 
+
+/* Animasi Ketik dan Kilat */
+         @keyframes typing-ismu {
+        from { width: 0; }
+        to { width: 10.5ch; }
+        }
+
+        @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: #00f2ff }
+        }
+
+        @keyframes fadeUp {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+
+        @keyframes fadeIn {
+        to { opacity: 1; }
+        }
+
+        @keyframes glow-text {
+        from { text-shadow: 0 0 10px rgba(0, 242, 255, 0.5); }
+        to { text-shadow: 0 0 25px rgba(0, 242, 255, 0.9), 0 0 10px rgba(0, 242, 255, 0.6); }
+        }
+
+
+
+
 /* --- HERO SECTION --- */
         .hero-section {
           min-height: 100vh;
