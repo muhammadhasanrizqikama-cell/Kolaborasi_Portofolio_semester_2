@@ -159,14 +159,12 @@
 
 /* My Skills */
         
-
-        /* CONTAINER UTAMA: Membatasi lebar tampilan grafik agar proporsional */
         .dashboard-box {
             max-width: 850px;
             margin: 0 auto;
         }
 
-        /* 2. JUDUL UTAMA: Efek bayangan tegas (text-shadow) 3D hitam transparan sesuai gambar */
+        /* JUDUL UTAMA: Efek bayangan tegas (text-shadow) 3D hitam transparan sesuai gambar */
         .main-title {
             font-size: 38px;
             font-weight: bold;
@@ -175,7 +173,7 @@
             margin-bottom: 40px;
         }
 
-        /* 3. SKILL LABEL: Teks nama bahasa pemrograman di sisi kiri */
+        /* SKILL LABEL: Teks nama bahasa pemrograman di sisi kiri */
         .skill-label {
             font-size: 16px;
             font-weight: bold;
@@ -184,7 +182,7 @@
             padding-right: 25px;
         }
 
-        /* 4. BACKGROUND BAR UTAMA: Kapsul putih solid bersinar lembut */
+        /* BACKGROUND BAR UTAMA: Kapsul putih solid bersinar lembut */
         .custom-progress-bg {
             background-color: #ffffff;
             height: 22px;
@@ -194,7 +192,7 @@
             position: relative;
         }
 
-        /* 5. PROGRESS FILLER: Efek gradasi warna memudar ke putih (fade out) di ujung kanan isian */
+        /*  PROGRESS FILLER: Efek gradasi warna memudar ke putih (fade out) di ujung kanan isian */
         .custom-bar {
             height: 100%;
             border-radius: 50px 0 0 50px;
@@ -208,7 +206,7 @@
         .bar-bootstrap { background: linear-gradient(to right, #009e15 0%, #00cc1b 75%, rgba(255,255,255,0) 100%); }
         .bar-tailwind { background: linear-gradient(to right, #004d1a 0%, #00802b 25%, rgba(255,255,255,0) 100%); }
 
-        /* 6. PERSENTASE TEKS: Angka di sebelah paling kanan bar */
+        /* PERSENTASE TEKS: Angka di sebelah paling kanan bar */
         .percentage-text {
             font-size: 16px;
             font-weight: bold;
@@ -216,7 +214,7 @@
             padding-left: 20px;
         }
 
-        /* 7. LOGO CONTAINER: Penataan letak SVG Logo agar melengkung naik turun mirip gambar */
+        /* LOGO CONTAINER: Penataan letak SVG Logo agar melengkung naik turun mirip gambar */
         .logo-row {
             margin-top: 50px;
             padding: 0 40px;
@@ -232,34 +230,6 @@
         .pos-up-1   { transform: translateY(0px); }
         .pos-down-3 { transform: translateY(45px); }
         .pos-up-2   { transform: translateY(15px); }
-
-        /* 8. CONTROLLER TABLE: Wadah tabel manajemen input pengubah angka di bagian bawah */
-        .control-panel {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 15px;
-            backdrop-filter: blur(10px);
-            margin-top: 100px;
-            padding: 25px;
-        }
-        .control-panel h4 {
-            color: #00d2ff;
-            font-weight: bold;
-            font-size: 18px;
-        }
-        .table-input {
-            background: rgba(0, 0, 0, 0.4) !important;
-            color: #ffffff !important;
-            border: 1px solid rgba(255, 255, 255, 0.2) !important;
-            text-align: center;
-            width: 90px;
-            border-radius: 6px;
-        }
-        .table-input:focus {
-            border-color: #00d2ff !important;
-            outline: none;
-            box-shadow: 0 0 8px rgba(0, 210, 255, 0.5);
-        }
 
 
 
